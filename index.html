@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Introduction – Alex Taylor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      color: #555;
+    }
+    audio {
+      margin-top: 1.5rem;
+      width: 100%;
+    }
+    .brand {
+      font-weight: bold;
+      color: #2a72d4;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      color: white;
+      background-color: #2a72d4;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #1a5ab8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1><span class="brand">Alex Taylor</span> – Audio Introduction</h1>
+    <p>Thanks for visiting. This short audio message gives a quick overview of who I am and what I offer professionally.</p>
+    <audio controls>
+      <source src="intro-recording.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <a href="mailto:alex.taylor@email.com" class="button">Contact Me</a>
+  </div>
+</body>
+</html>
